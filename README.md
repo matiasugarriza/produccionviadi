@@ -4,6 +4,9 @@
 Desarrollar una app web para gestionar pedidos y sus respectivos procesos.
 
 ## Carecterísticas
+
+### Front
+
     * Login (usuarios y administradores)
     * Menú de navegación
         * Logo
@@ -27,5 +30,10 @@ Desarrollar una app web para gestionar pedidos y sus respectivos procesos.
         * Cantidad
     * Vista de Pedidos (Item List, cada pedido es un Item)
         * Detalle del pedido (Editable según permisos)
-    * 
 
+### Back
+
+    * BD Pedidos
+    * BD Artículos
+    * BD Clientes
+    * BD Usuarios
