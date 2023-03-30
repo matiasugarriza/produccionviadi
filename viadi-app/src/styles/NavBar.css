@@ -1,0 +1,23 @@
+.NavBar {
+  display: flex;
+  background-color: #274265;
+  padding: 0.5vw 2vw 0.5vw 2vw;
+  justify-content: space-between;
+}
+.NavBar .App-logo {
+  max-width: 7rem;
+  filter: aliceblue;
+}
+.NavBar .searchNavBar .search {
+  height: 2vh;
+  width: 10vw;
+}
+.NavBar .searchNavBar svg {
+  max-width: 2rem;
+  background-color: aliceblue;
+  position: relative;
+  top: 0;
+}
+.NavBar .menu {
+  max-width: 2.5rem;
+}/*# sourceMappingURL=NavBar.css.map */
