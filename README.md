@@ -9,15 +9,15 @@ Desarrollar una app web para gestionar pedidos y sus respectivos procesos.
 
     * Login (usuarios y administradores)
     * Menú de navegación
-        * Logo
+        * Logo 
         * Barra de búsqueda (Elemento Search HTML)
         * Menú hamburguesa acoplable
             * Opciones de Procesos
                 * Pedidos
                 * Cortes
-            * Información del Usuario
             * Reportes
             * Errores
+            * Configuración de Usuario
     * Menú Reportes
         * Cantidad de Pedidos
         * Cantidad de prendas Cortadas

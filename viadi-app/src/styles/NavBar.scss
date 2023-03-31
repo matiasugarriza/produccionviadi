@@ -1,23 +1,32 @@
+@import './colors';
+
 .NavBar{
     display: flex;
-    background-color: #274265;
-    padding: 0.5vw 2vw 0.5vw 2vw;
+    background-color: $azul-chicos;
+    padding: 0.5rem 2rem 0.5rem 2rem;
     justify-content: space-between;
 
     .App-logo{
         max-width: 7rem;
-        filter:aliceblue;
     }
     .searchNavBar{
+        display: flex;
+        align-items: center;
+        margin-right: 5rem;
         .search{
-            height: 2vh;
-            width: 10vw;
+            height: 2.5rem;
+            width: 20vw;
+            border-radius: 100px;
+            padding: 0 0.7rem 0 0.7rem;
         }
         svg{
             max-width: 2rem;
-            background-color: aliceblue;
-            position: relative;
-            top:0;
+            position: absolute;
+            top:1.7rem;
+            margin-left: 0.7rem;
+        }
+        .search:focus ~ svg{
+            display: none;
         }
     }
     .menu{
